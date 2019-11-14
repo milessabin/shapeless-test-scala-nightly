@@ -9,4 +9,4 @@ rm -rf shapeless/ && \
 git clone https://github.com/milessabin/shapeless.git && \
 cd shapeless && \
 git checkout master && \
-sbt 'set resolvers in Global += "scala-integration" at "https://scala-ci.typesafe.com/artifactory/scala-integration/"' ++$SCALA_VERSION validate
+sbt 'set resolvers in Global += "scala-integration" at "https://scala-ci.typesafe.com/artifactory/scala-integration/"' ++$SCALA_VERSION validateJVM
