@@ -10,7 +10,7 @@ echo "Project suffix: $SUFFIX"
 echo "shapeless branch: $SHAPELESS_BRANCH"
 
 case $SHAPELESS_BRANCH in
-  master)
+  main)
     TESTS="validateJVM"
     ;;
   *)
